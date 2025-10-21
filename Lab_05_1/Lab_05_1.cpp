@@ -24,5 +24,5 @@ int main() {
 }
 
 double f(const double a, const double b, const double c) {
-    return sin(a * b * c) / (a * a + b * b + c * c);
+    return (sin(a * b * c)) / (a * a + b * b + c * c);
 }
